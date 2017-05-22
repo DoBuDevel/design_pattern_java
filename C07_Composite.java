@@ -50,7 +50,7 @@ abstract class Component {
 }
 
 
-//----------------- 하위 Composite(하위 노드 가질 수 있음) ----------------- 
+// 하위 Composite(하위 노드 가질 수 있음)  
 class Composite extends Component {
     public Composite(String componentName) {
         super(componentName);
@@ -61,7 +61,7 @@ class Composite extends Component {
     }
 }
 
-//----------------- 하위 Leaf(하위 노드 가질 수 없음) ----------------- 
+// 하위 Leaf(하위 노드 가질 수 없음)  
 class Leaf extends Component{
     public Leaf(String componentName) {
         super(componentName);
@@ -72,7 +72,7 @@ class Leaf extends Component{
     }
 }
 
-//----------------- 테스트 클래스 ----------------- 
+// 테스트 클래스  
 
 public class C07_Composite {
     public static void main(String[] args) {
